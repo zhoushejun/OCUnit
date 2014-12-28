@@ -44,4 +44,7 @@ OCUnit
 ======
 > Xcode5单元测试（一）使用XCTest进行单元测试：http://www.it165.net/pro/html/201403/10828.html
 
+> Testing with Xcode文档（中文版）：编写测试类与方法:http://www.cocoachina.com/ios/20140715/9144.html
+
+> 官方文档：https://developer.apple.com/library/mac/documentation/DeveloperTools/Conceptual/testing_with_xcode/testing_3_writing_test_classes/testing_3_writing_test_classes.html#//apple_ref/doc/uid/TP40014132-CH4-SW34
 
