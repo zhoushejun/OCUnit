@@ -14,6 +14,7 @@
 		18436E411A50293D00CBB4DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18436E401A50293D00CBB4DE /* Images.xcassets */; };
 		18436E441A50293D00CBB4DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18436E421A50293D00CBB4DE /* LaunchScreen.xib */; };
 		18436E501A50293E00CBB4DE /* OCUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18436E4F1A50293E00CBB4DE /* OCUnitTests.m */; };
+		CF0208D81AA1E58200BE42DB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CF0208D71AA1E58200BE42DB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		18436E491A50293D00CBB4DE /* OCUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18436E4E1A50293E00CBB4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18436E4F1A50293E00CBB4DE /* OCUnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCUnitTests.m; sourceTree = "<group>"; };
+		CF0208D71AA1E58200BE42DB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		18436E321A50293A00CBB4DE /* OCUnit */ = {
 			isa = PBXGroup;
 			children = (
+				CF0208D71AA1E58200BE42DB /* README.md */,
 				18436E371A50293D00CBB4DE /* AppDelegate.h */,
 				18436E381A50293D00CBB4DE /* AppDelegate.m */,
 				18436E3A1A50293D00CBB4DE /* ViewController.h */,
@@ -221,6 +224,7 @@
 			files = (
 				18436E3C1A50293D00CBB4DE /* ViewController.m in Sources */,
 				18436E391A50293D00CBB4DE /* AppDelegate.m in Sources */,
+				CF0208D81AA1E58200BE42DB /* README.md in Sources */,
 				18436E361A50293C00CBB4DE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +418,7 @@
 				18436E551A50293E00CBB4DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18436E561A50293E00CBB4DE /* Build configuration list for PBXNativeTarget "OCUnitTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				18436E581A50293E00CBB4DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
